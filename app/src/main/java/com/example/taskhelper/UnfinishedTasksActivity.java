@@ -19,6 +19,8 @@ public class UnfinishedTasksActivity extends AppCompatActivity {
 
         Button btnFinishedTasks = (Button)findViewById(R.id.btnFinishedTasks);
         FloatingActionButton btnAddTask = (FloatingActionButton)findViewById(R.id.btnAddTask);
+        //Да
+
 
         btnFinishedTasks.setOnClickListener( new Button.OnClickListener() {
                                                  public void onClick(View v) {
